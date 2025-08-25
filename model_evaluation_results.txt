@@ -1,0 +1,35 @@
+Drug-Drug Interaction Model Evaluation Results
+==================================================
+
+Interaction Model:
+Training Accuracy: 0.4561
+Testing Accuracy: 0.4000
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Additive       0.40      0.67      0.50         6
+Antagonistic       0.00      0.00      0.00         6
+ Synergistic       0.40      0.67      0.50         3
+
+    accuracy                           0.40        15
+   macro avg       0.27      0.44      0.33        15
+weighted avg       0.24      0.40      0.30        15
+
+Severity Model:
+Training Accuracy: 0.5167
+Testing Accuracy: 0.3125
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       Major       0.31      1.00      0.48         5
+    Moderate       0.00      0.00      0.00        11
+
+    accuracy                           0.31        16
+   macro avg       0.16      0.50      0.24        16
+weighted avg       0.10      0.31      0.15        16
+
+Overall Model Performance:
+Average Training Accuracy: 0.4864
+Average Testing Accuracy: 0.3563
